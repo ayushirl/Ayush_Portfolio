@@ -2,19 +2,19 @@
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Ayush Kumar Mahato | Portfolio
 
-This contains everything you need to run your app locally.
+Portfolio site built with React, TypeScript, and Vite.
 
-View your app in AI Studio: https://ai.studio/apps/1b956dca-67ee-41c1-98e2-cf25c5eca2df
-
-## Run Locally
+## Run locally
 
 **Prerequisites:**  Node.js
 
-
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Start the development server:
    `npm run dev`
+
+## Deploy to Netlify
+
+Netlify uses `netlify.toml` to run `npm run build` and publish the generated `dist` directory. The configuration also pins a compatible Node.js version and routes client-side requests to the app entry point.
